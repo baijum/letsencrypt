@@ -29,7 +29,7 @@ import (
     "github.com/ericchiang/letsencrypt"
 )
 
-var supportedChallengs = []string{
+var supportedChallenges = []string{
     letsencrypt.ChallengeHTTP,
     letsencrypt.ChallengeTLSSNI,
 }
